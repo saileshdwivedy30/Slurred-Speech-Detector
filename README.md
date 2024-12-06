@@ -1,17 +1,17 @@
 # Slurred Speech Detection: Multimodal Approach
 
-This project aims to develop a robust system for detecting dysarthria by leveraging both audio features and speech transcriptions. Below is a summary of completed tasks and future directions.
+This project aims to develop a robust system for detecting slurred speech by leveraging both audio features and speech transcriptions. Below is a summary of completed tasks and future directions.
 
 ---
 
 ## **Completed Work**
 
 1. **Audio Feature Extraction**:
-   - Extracted **MFCC features** from audio recordings, handling inconsistencies like short files.
+   - Extracted **MFCC features** from audio recordings in TORGO dataset, handling inconsistencies like short files.
    - Prepared a structured dataset with features and labels for training.
 
 2. **Audio-Based Classification**:
-   - Trained a various Bagging and Boosting models on extracted features.
+   - Trained various Bagging and Boosting models on extracted features.
    - Selected the best model by evaluation using metrics such as accuracy, precision, and F1-score.
    - Analyzed feature importance to identify key contributors to the classification.
 
