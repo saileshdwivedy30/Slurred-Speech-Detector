@@ -7,7 +7,7 @@ This project aims to develop a robust system for detecting slurred speech by lev
 ## **Completed Work**
 
 1. **Audio Feature Extraction**:
-   - Extracted **MFCC features** from audio recordings in TORGO dataset, handling inconsistencies like short files.
+   - Extracted **MFCC features** from audio recordings in TORGO dataset (For Dysarthria), handling inconsistencies like short files.
    - Prepared a structured dataset with features and labels for training.
 
 2. **Audio-Based Classification**:
